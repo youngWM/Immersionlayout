@@ -1,8 +1,7 @@
 ## Immersionlayout
 ## 实现沉浸式布局+下拉刷新+上拉加载+滚动布局的效果
 
-[滚动后toolbar渐变，toolbar内控件字体颜色和图标同步改变](demo.gif)
-
+![滚动后toolbar渐变，toolbar内控件字体颜色和图标同步改变](image/immersion_demo1.gif "github")
 
 
 ## 简化沉浸式布局的实现，只需三步，即可实现沉浸式布局效果：
