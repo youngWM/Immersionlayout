@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ImmersionRefreshScrollLayout">
+        <!--toolbar由全透明到完成不透明所需的滚动距离-->
+        <attr name="opacityScrollDistance" format="dimension">70f</attr>
+        <!--在toolbar全透明前，控件的字体颜色-->
+        <attr name="textColorBeforeOpacity" format="color"/>
+        <!--在toolbar全透明后，控件的字体颜色-->
+        <attr name="textColorAfterOpacity" format="color"/>
+        <!--在toolbar全透明前，控件的背景图-->
+        <attr name="backgroundBeforeOpacity" format="integer"/>
+        <!--在toolbar全透明前，控件的背景图-->
+        <attr name="backgroundAfterOpacity" format="integer"/>
+        <!-- toolbar由全透明到完成不透明时，控件的显示模式 -->
+        <attr name="showModeBeforeDistance" format="enum">
+            <enum name="show" value="0x01"/>
+            <enum name="hide" value="0x02"/>
+            <enum name="gradient" value="0x04"/>
+        </attr>
+        <!-- toolbar完全不透明后，控件的显示模式 -->
+        <attr name="showModeAfterDistance" format="enum">
+            <enum name="show" value="0x01"/>
+            <enum name="hide" value="0x02"/>
+        </attr>
+
+    </declare-styleable>
+
+</resources>
