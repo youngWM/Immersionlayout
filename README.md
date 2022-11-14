@@ -37,3 +37,7 @@ val immersionLayout = findViewById<ImmersionScrollRefreshLayout>(R.id.immersionL
 ```
 
 以上，就实现沉浸式布局的效果。
+
+
+常见问题:
+系统栏无法进入沉浸式，请检查布局文件是否使用 fitsSystemWindows = true
